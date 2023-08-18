@@ -833,6 +833,7 @@ img {
     padding-left: 30px;
     position: relative;
     cursor: pointer;
+
 }
 
 .widgets-control .control label::before {
@@ -849,6 +850,7 @@ img {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+
 }
 
 .widgets-control .control label:hover::before {
@@ -881,6 +883,11 @@ img {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 .widgets-control .control input[type="checkbox"]:checked + label::after {
@@ -901,6 +908,7 @@ img {
     padding-left: 30px;
     position: relative;
     cursor: pointer;
+
 }
 
 .backup-control .date label::before {
@@ -917,13 +925,14 @@ img {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+
 }
 
 .backup-control .date label::after {
     content: "";
     position: absolute;
-    left: 5px;
-    top: 5px;
+    left: 4.5px;
+    top: 4.5px;
     width: 12px;
     height: 12px;
     background-color: var(--blue-color);
@@ -937,6 +946,11 @@ img {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 .backup-control .date input[type="radio"]:checked + label::before,
@@ -998,6 +1012,11 @@ img {
     -o-border-radius: 16px;
     position: relative;
     cursor: pointer;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 .toggle-switch::before {
@@ -1013,6 +1032,11 @@ img {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
     top: 3px;
     left: 4px;
     display: flex;
