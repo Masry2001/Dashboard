@@ -86,6 +86,28 @@ img {
     box-shadow: 0 0 10px #ddd;
 }
 
+.sidebar h3, 
+.sidebar ul {
+    position: fixed;
+}
+
+@media (min-width: 768px) {
+    .sidebar h3 {
+        left: 70px;
+    }
+    .sidebar ul {
+        top: 100px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar ul {
+        top: 45px;
+    }
+}
+
+
 .sidebar > h3 { /*direct child*/
     margin-bottom: 50px;
 }
